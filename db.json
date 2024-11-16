@@ -1,0 +1,49 @@
+{
+    "categories": [
+      { "id": 1, "name": "Все" },
+      { "id": 2, "name": "Мясные" },
+      { "id": 3, "name": "Вегетарианская" },
+      { "id": 4, "name": "Гриль" },
+      { "id": 5, "name": "Острые" },
+      { "id": 6, "name": "Закрытые" }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Чизбургер-пицца",
+        "price": 395,
+        "sizes": [26, 30, 40],
+        "types": ["тонкое", "традиционное"],
+        "imageUrl": "https://pizzavenus.gr/site/wp-content/uploads/2022/03/pizzeria-template-header-pizza-img.png",
+        "category": 2
+      },
+      {
+        "id": 2,
+        "name": "Сырная",
+        "price": 450,
+        "sizes": [26, 30, 40],
+        "types": ["тонкое", "традиционное"],
+        "imageUrl": "https://pizzavenus.gr/site/wp-content/uploads/2022/03/pizzeria-template-header-pizza-img.png",
+        "category": 1
+      },
+      {
+        "id": 3,
+        "name": "Креветки по-азиатски",
+        "price": 290,
+        "sizes": [26, 30, 40],
+        "types": ["тонкое", "традиционное"],
+        "imageUrl": "https://pizzavenus.gr/site/wp-content/uploads/2022/03/pizzeria-template-header-pizza-img.png",
+        "category": 3
+      },
+      {
+        "id": 4,
+        "name": "Сырный цыпленок",
+        "price": 385,
+        "sizes": [26, 30, 40],
+        "types": ["тонкое", "традиционное"],
+        "imageUrl": "https://pizzavenus.gr/site/wp-content/uploads/2022/03/pizzeria-template-header-pizza-img.png",
+        "category": 4
+      }
+    ]
+  }
+  
