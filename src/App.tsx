@@ -1,18 +1,17 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import { Home } from "./pages";
+import './App.css'
+import Header from './components/Header'
+import CustomRoute from './routes/CustomRoute'
 
-const App = () => {
+function App() {
+
   return (
-    <Router>
-      <header>
-        <Header />
-      </header>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
-  );
-};
+    <div className='bg-[#FFDF8C] py-[40px] overflow-y-scroll h-[100vh]'>
+      <div className="w-[1340px] px-[50px] rounded-[10px] h-[1409px] bg-white mx-auto">
+        <Header/>
+        <CustomRoute/>
+      </div>
+    </div>
+  )
+}
 
-export default App;
+export default App
