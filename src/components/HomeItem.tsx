@@ -1,7 +1,7 @@
 import React from "react"
 import { ProductsType } from "./HomeProducts"
 import { Segmented } from "antd";
-import PlusImg from "../assets/images/plus.svg"
+import Btn from "../assets/images/btn.svg"
 
 
 const HomeItem: React.FC<{ item: ProductsType }> = ({ item }) => {
@@ -36,7 +36,7 @@ const HomeItem: React.FC<{ item: ProductsType }> = ({ item }) => {
             <div className="flex items-end justify-between">
                 <h2 className="font-bold text-5 leading-6 mb-[22px]">от 395 ₽</h2>
                 <button className="w-[132px] py-[10px] text-[16px] font-bold text-[#EB5A1E] border-[1px] border-[#EB5A1E] rounded-[30px] flex items-center justify-center gap-[7px]">
-                    <img src={PlusImg} alt="plus img" width={12} height={12} />
+                    <img src={Btn} alt="btn" width={12} height={12} />
                     Добавить
                 </button>
             </div>
